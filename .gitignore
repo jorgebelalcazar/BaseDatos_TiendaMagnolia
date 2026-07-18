@@ -1,0 +1,14 @@
+# ============================================================
+#  Datos masivos provistos (NO se versionan)
+#  GitHub limita a 100 MB por archivo; este archivo pesa ~2 GB.
+#  Es el conjunto de datos original entregado con el proyecto.
+# ============================================================
+02_magnolia_minimarket.dml.sql
+
+# Archivos comprimidos de datos
+*.zip
+
+# Basura de sistema operativo / editores
+.DS_Store
+Thumbs.db
+.vscode/
