@@ -1,6 +1,6 @@
 # Sistema POS — Tienda de doña Magnolia
 
-Rediseño y re-implementación del sistema de punto de venta de la tienda de doña Magnolia para la materia de **Bases de Datos** (750006-C) de la Universidad del Valle.
+Rediseño y re-implementación del sistema de punto de venta de la tienda de doña Magnolia.
 
 El sistema original funcionaba sobre una única tabla desnormalizada (`pos_general`). Este proyecto la rediseña hasta la **Tercera Forma Normal (3FN)**, migra los datos históricos sin pérdida, e implementa restricciones de integridad, consultas de negocio, funciones, un procedimiento, disparadores e índices sobre **PostgreSQL 16** desplegado en **Docker**.
 
@@ -47,12 +47,6 @@ Con la base desplegada, ejecutar los scripts en orden: `02b` (esquema), `02c` (m
 5. Ciudad donde cada proveedor vende más.
 6. Mejor vendedor por sucursal.
 
-## Enlaces
-
-- **Video (Opcional 1):** _pendiente_
-- **Video (Opcional 2):** _pendiente_
-- **Informe (PDF):** ver `informe_magnolia.pdf`
-
 ## Autor
 
-_Tu nombre — código de estudiante_
+Jorge Iván Belalcázar - 2374654
